@@ -76,4 +76,11 @@
       background: #e05a5a;
     }
   }
+
+  @media screen and (min-width: 500px) {
+    .btn {
+      position: static;
+      background-color: #dd2e2e;
+    }
+  }
 </style>

@@ -42,4 +42,10 @@
     flex-direction: column;
     align-items: center;
   }
+
+  @media screen and (min-width: 500px) {
+    .product__page {
+      width: 500px;
+    }
+  }
 </style>

@@ -26,7 +26,6 @@
 </script>
 
 <style lang="scss" scoped>
-
   .error {
     display: flex;
     flex-direction: column;
@@ -34,7 +33,7 @@
   }
 
   .header {
-    font-size: 100px;
+    font-size: 80px;
     padding: 20px;
     border-bottom: 2px solid #e1d1d1;
     background: -webkit-linear-gradient(rgb(0, 168, 247), rgb(67, 41, 218));
@@ -43,8 +42,8 @@
   }
 
   .message {
-    font-size: 50px;
-    margin: 50px 0 20px 0;
+    font-size: 25px;
+    margin: 20px 0 20px 0;
     span {
       color: red;
     }
@@ -64,6 +63,17 @@
     border-radius: 10px;
     &:hover {
       background: rgb(79, 79, 240);
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    .header {
+      font-size: 100px;
+    }
+
+    .message {
+      font-size: 50px;
+      margin: 50px 0 20px 0;
     }
   }
 </style>
